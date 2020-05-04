@@ -17,7 +17,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/d-fischer/passport-twitch-new.git"
+    "url": "git://github.com/d-fischer/passport-twitch.git"
   },
   "author": {
     "name": "Daniel Fischer",
