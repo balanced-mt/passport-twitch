@@ -46,6 +46,7 @@ class Strategy extends OAuth2Strategy {
         options = options || {}
         options.authorizationURL = options.authorizationURL || "https://id.twitch.tv/oauth2/authorize"
         options.tokenURL = options.tokenURL || "https://id.twitch.tv/oauth2/token"
+        options.customHeaders = options.customHeaders || {}
         options.customHeaders['Client-ID'] = options.clientID
 
         super(options, verify)
