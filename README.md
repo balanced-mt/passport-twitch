@@ -26,7 +26,7 @@ accepts these credentials and calls `done` providing a user, as well as
 
 ```javascript
 var passport       = require("passport");
-var twitchStrategy = require("passport-twitch-new").Strategy;
+var twitchStrategy = require("@d-fischer/passport-twitch").Strategy;
 
 passport.use(new twitchStrategy({
     clientID: TWITCH_CLIENT_ID,
