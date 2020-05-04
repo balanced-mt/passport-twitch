@@ -1,6 +1,6 @@
 {
-  "name": "passport-twitch-new",
-  "version": "0.0.1-alpha",
+  "name": "@d-fischer/passport-twitch",
+  "version": "1.0.0",
   "description": "Twitch (OAuth) authentication strategies using the new Twitch API for Passport.",
   "keywords": [
     "passport",
@@ -12,26 +12,18 @@
     "identity",
     "oauth",
     "oauth2",
-    "strategy"
+    "strategy",
+    "helix"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nigh7sh4de/passport-twitch.git"
-  },
-  "bugs": {
-    "url": "http://github.com/nigh7sh4de/passport-twitch/issues"
+    "url": "git://github.com/d-fischer/passport-twitch-new.git"
   },
   "author": {
-    "name": "Dennis Plotnik",
-    "email": "plotnikd@gmail.com",
-    "url": "http://github.com/nigh7sh4de"
+    "name": "Daniel Fischer",
+    "email": "daniel@d-fischer.dev"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "./index.js",
   "dependencies": {
     "jsonwebtoken": "^8.2.1",
@@ -43,13 +35,5 @@
   },
   "engines": {
     "node": ">=0.10.0"
-  },
-  "maintainers": [
-    {
-      "name": "Dennis Plotnik",
-      "email": "plotnikd@gmail.com"
-    }
-  ],
-  "directories": {},
-  "homepage": "https://github.com/nigh7sh4de/passport-twitch"
+  }
 }
