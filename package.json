@@ -1,6 +1,6 @@
 {
   "name": "@d-fischer/passport-twitch",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Twitch (OAuth) authentication strategies using the new Twitch API for Passport.",
   "keywords": [
     "passport",
