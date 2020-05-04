@@ -26,7 +26,6 @@
   "license": "MIT",
   "main": "./index.js",
   "dependencies": {
-    "jsonwebtoken": "^8.2.1",
     "passport-oauth2": "^1.4.0",
     "pkginfo": "0.2.x"
   },
