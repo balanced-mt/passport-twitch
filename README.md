@@ -2,8 +2,10 @@
 
 Twitch is a trademark or registered trademark of Twitch Interactive, Inc. in the U.S. and/or other countries. "passport-twitch" is not operated by, sponsored by, or affiliated with Twitch Interactive, Inc. in any way.
 
-[Passport](http://passportjs.org/) strategies for authenticating with [Twitch](http://www.twitch.tv/)
-using OAuth 2.0 on the New Twitch API.
+[Passport](http://passportjs.org/) strategy for authenticating with [Twitch](http://www.twitch.tv/)
+using OAuth 2.0 on Helix (the New Twitch API).
+
+**It supports the OAuth changes Twitch implemented in April 2020!**
 
 This module lets you authenticate using Twitch in your Node.js applications.
 By plugging into Passport, Twitch authentication can be easily and
