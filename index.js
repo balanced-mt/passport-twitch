@@ -6,7 +6,7 @@ var OAuth2Strategy = require("./oauth2");
 /**
  * Framework version.
  */
-require("pkginfo")(module, "version");
+module.exports.version = require("package.json").version;
 
 /**
  * Expose constructors.

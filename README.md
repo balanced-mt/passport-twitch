@@ -1,5 +1,7 @@
 # passport-twitch
 
+#### This package fixes Webpack dependcy bundling and unable to find the package.json file
+
 Twitch is a trademark or registered trademark of Twitch Interactive, Inc. in the U.S. and/or other countries. "passport-twitch" is not operated by, sponsored by, or affiliated with Twitch Interactive, Inc. in any way.
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Twitch](http://www.twitch.tv/)
@@ -15,7 +17,7 @@ unobtrusively integrated into any application or framework that supports
 
 ## Install
 ```bash
-$ npm install @d-fischer/passport-twitch
+$ npm install @ghostfromtexas/passport-twitch
 ```
 ## Usage of OAuth 2.0
 
@@ -28,7 +30,7 @@ accepts these credentials and calls `done` providing a user, as well as
 
 ```javascript
 var passport       = require("passport");
-var twitchStrategy = require("@d-fischer/passport-twitch").Strategy;
+var twitchStrategy = require("@ghostfromtexas/passport-twitch").Strategy;
 
 passport.use(new twitchStrategy({
     clientID: TWITCH_CLIENT_ID,

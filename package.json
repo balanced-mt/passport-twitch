@@ -1,6 +1,6 @@
 {
-  "name": "@d-fischer/passport-twitch",
-  "version": "1.0.5",
+  "name": "@ghostfromtexas/passport-twitch",
+  "version": "1.0.0",
   "description": "Twitch authentication strategy using Helix for Passport. Supports the April 2020 Twitch changes!",
   "keywords": [
     "passport",
@@ -15,20 +15,18 @@
     "strategy",
     "helix"
   ],
-  "funding": "https://github.com/sponsors/d-fischer",
   "repository": {
     "type": "git",
-    "url": "git://github.com/d-fischer/passport-twitch.git"
+    "url": "git://github.com/ghostfromtexas/passport-twitch.git"
   },
   "author": {
-    "name": "Daniel Fischer",
-    "email": "daniel@d-fischer.dev"
+    "name": "GhostfromTexas",
+    "email": "GhostfromTexas@gmail.com"
   },
   "license": "MIT",
   "main": "./index.js",
   "dependencies": {
-    "passport-oauth2": "^1.4.0",
-    "pkginfo": "0.2.x"
+    "passport-oauth2": "^1.4.0"
   },
   "devDependencies": {
     "vows": "0.6.x"
