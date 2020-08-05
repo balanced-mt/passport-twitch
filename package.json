@@ -13,7 +13,8 @@
     "oauth",
     "oauth2",
     "strategy",
-    "helix"
+	"helix",
+	"webpack"
   ],
   "repository": {
     "type": "git",
