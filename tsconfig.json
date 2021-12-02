@@ -1,0 +1,30 @@
+{
+	"include": ["./src/**/*"],
+	"exclude": ["./src/example/**/*"],
+	"compilerOptions": {
+		"types": ["node", "jest"],
+		"target": "ES2020",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"*": ["types/*"]
+		},
+		"resolveJsonModule": true,
+		"declaration": true,
+		"declarationMap": true,
+		"sourceMap": true,
+		"outDir": "./dist/cjs",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": false,
+		"lib": ["ES6"],
+		"strictPropertyInitialization": false,
+		"downlevelIteration": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"incremental": true,
+		"tsBuildInfoFile": "dist/cjs/build.tsbuildinfo"
+	}
+}
