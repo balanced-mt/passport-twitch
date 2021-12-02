@@ -1,4 +1,5 @@
 {
+	"private": false,
 	"dependencies": {
 		"passport-oauth2": "^1.4.0"
 	},
@@ -61,5 +62,8 @@
 	"license": "MIT",
 	"engines": {
 		"node": ">=10"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
